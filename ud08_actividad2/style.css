@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: url(https://www.escapefromtarkov.com/uploads/content/news/content_thumb_5fac9d0f978abe80420146cd2e71d2d7.jpg?en);
+    background-size: contain;
+}
+
+.main-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.video {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video:hover {
+    transform: scale(1.4);
+}
+
+.titulo-video {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: 0;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.img {
+    margin: 200px;
+    transition: 4s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+    margin-top: -10px;
+    margin-left: 530px;
+}
+
+.logoPrin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.container-notices {
+    background-color: #f5f5f5;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    display: inline-block;
+    width: fit-content;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container-notices:hover {
+    background-color: #3498db;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #2980b9; 
+    color: #ffffff;
+}
